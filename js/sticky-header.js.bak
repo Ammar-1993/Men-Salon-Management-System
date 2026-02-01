@@ -1,0 +1,10 @@
+// JavaScript Document
+ 
+  $(document).ready(function(){
+  	"use strict";
+	 if( $( window ).width() >= "300" ) {
+		$(".header").sticky({topSpacing:0});	
+    }
+
+  });
+  
