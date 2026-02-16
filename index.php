@@ -16,6 +16,8 @@ include('includes/dbconnection.php');
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500,500i,700,700i%7cMontserrat:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
     <!-- Font Awesome -->
     <link href="css/font-awesome.min.css" rel="stylesheet">
+    <!-- Variables -->
+    <link href="css/variables.css" rel="stylesheet">
     <!-- Style -->
     <link href="css/style.css" rel="stylesheet">
     <link href="css/bootstrap-rtl.min.css" rel="stylesheet">
@@ -73,6 +75,7 @@ while ($row=mysqli_fetch_array($ret)) {
     <!-- sticky header -->
     <script src="js/jquery.sticky.js"></script>
     <script src="js/sticky-header.js"></script>
+    <script src="js/theme.js"></script>
 </body>
 
 </html>

@@ -16,6 +16,11 @@
         <div class="clearfix"> </div>
       </div>
       <div class="header-right">
+        <!--toggle button start-->
+        <div class="search-box">
+					<button id="theme-toggle" class="btn btn-default" style="background:transparent; border:none; font-size:1.2em; color: var(--color-text-heading);"><i class="fa fa-moon-o"></i></button>
+				</div>
+        <!--toggle button end-->
         <div class="profile_details_left"><!--notifications of menu start -->
           <ul class="nofitications-dropdown">
             <?php

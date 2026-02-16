@@ -15,6 +15,7 @@
                                 <li><a href="contact.php" title="Contact Us">اتصل بنا</a></li>
                                 <li><a href="appointment.php" title="Styleguide">حجز موعد</a> </li>
                                 <li><a href="admin/index.php" title="Contact Us">المشرف</a> </li>
+                                <li><a href="#" id="theme-toggle" title="Toggle Theme"><i class="fa fa-moon-o"></i></a></li>
                             </ul>
                         </div>
                     </div>

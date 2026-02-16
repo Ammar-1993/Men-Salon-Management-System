@@ -1,0 +1,53 @@
+:root {
+    /* Color Palette - Core */
+    --color-primary: #aa9144;      /* Gold */
+    --color-primary-dark: #8e7424; /* Darker Gold for hover */
+    --color-secondary: #18150d;    /* Black/Dark Background */
+    --color-text-main: #5d5c59;    /* Main Body Text */
+    --color-text-heading: #18150d; /* Headings */
+    --color-bg-body: #ffffff;      /* Main Body Background */
+    --color-bg-light: #f4f1ec;     /* Light Gray/Beige Background */
+    --color-bg-white: #ffffff;     /* White Elements */
+    --color-border: #dcd9d3;       /* Borders */
+    --color-white: #ffffff;
+
+    /* Admin Specifics (Unified to Gold/Black) */
+    --admin-sidebar-bg: #18150d;
+    --admin-header-bg: #ffffff;
+    --admin-text-color: #5d5c59;
+
+    /* Functional Colors */
+    --color-success: #5cb85c;
+    --color-danger: #d9534f;
+    --color-warning: #f0ad4e;
+    --color-info: #5bc0de;
+    
+    /* Spacing & Layout */
+    --spacing-xs: 5px;
+    --spacing-sm: 10px;
+    --spacing-md: 20px;
+    --spacing-lg: 30px;
+    --border-radius-sm: 4px;
+    --border-radius-md: 10px;
+    --border-radius-lg: 20px;
+}
+
+/* Dark Mode Overrides */
+body.dark-mode {
+    /* Re-map colors for dark mode */
+    --color-text-main: #e0e0e0;
+    --color-text-heading: #f4f1ec;
+    --color-bg-body: #121212;
+    --color-bg-light: #1e1e1e;
+    --color-bg-white: #252525;
+    --color-border: #333333;
+    
+    --admin-sidebar-bg: #000000;
+    --admin-header-bg: #1e1e1e;
+    --admin-text-color: #e0e0e0;
+}
+
+/* Common Utility Classes for Dark Mode Transition */
+body, .well-block, .footer, .header, .sidebar, .widget, .form-control {
+    transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
+}
