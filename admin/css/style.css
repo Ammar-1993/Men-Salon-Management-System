@@ -2235,7 +2235,7 @@ i.fa.fa-facebook.profile-icon {
 }
 .profile-btm ul li h4 {
     font-size: 1.3em;
-    color: #6164C1;
+    color: var(--color-secondary);
     font-weight: 900;
 }
 .profile-btm ul li h5 {
@@ -2395,7 +2395,7 @@ i.fa.fa-facebook.profile-icon {
 }
 .header-top li p.cen {
     background: #FFFFFF;
-    color: #6164C1;
+    color: var(--color-secondary);
     border-radius: 0 3px 3px 0;
 }
 .whe {
