@@ -90,7 +90,7 @@ b, strong {
 .small-text { color: #b4b1ac; font-size: 12px; }
 .text-caps { text-transform: uppercase; letter-spacing: 2px; }
 ::selection { background: #ffecb3; color: #333; }
-h3 small { font-weight: 400; line-height: 1; color: #aa9144; font-size: 14px; }
+h3 small { font-weight: 400; line-height: 1; color: var(--color-primary); font-size: 14px; }
  
 hr { margin-top: 20px; margin-bottom: 20px; border: 0; border-top: 1px solid var(--color-border); }
 blockquote { padding: 10px 20px; margin: 0px; font-size: 21px; line-height: 32px; color: var(--color-text-heading); font-style: italic; border-left: 5px solid var(--color-primary); }
@@ -562,19 +562,19 @@ margin-bottom: 8px; padding: 0 0 8px 40px; color: #747474; }
 .contact-block { }
 .contact-block ul { }
 .contact-block ul li { border: 1px solid #f1f2f4; padding-top: 30px; padding-bottom: 30px; }
-.contact-block ul li i { color: #aa9144; float: left; padding: 0px; }
+.contact-block ul li i { color: var(--color-primary); float: left; padding: 0px; }
 .contact-block .contact-text { }
-.contact-info { background-color: #cda34d; color: #fff; }
+.contact-info { background-color: var(--color-primary); color: #fff; }
 .contact-info ul { padding-left: 0px; }
-.contact-info li { position: relative; padding-left: 70px; margin-bottom: 30px; border-bottom: 1px solid #b69042; padding-bottom: 29px; }
+.contact-info li { position: relative; padding-left: 70px; margin-bottom: 30px; border-bottom: 1px solid var(--color-primary-dark); padding-bottom: 29px; }
 .contact-info li:last-child { border-bottom: none; }
 .contact-info li i { display: block; position: absolute; left: 0;    /* font-size: 50px; */    /* text-align: center; */
 color: #fff;    /* bottom: 0px; */ }
 .map { height: 400px; }
 .contact-social { text-align: center; }
 .contact-social { }
-.contact-social a i { height: 32px; width: 32px; border-radius: 50px; background-color: #8e7424; text-align: center; padding: 7px; line-height: 1.2; font-size: 14px; color: #c12d17; }
-.contact-social a i:hover { color: #8e7424; }
+.contact-social a i { height: 32px; width: 32px; border-radius: 50px; background-color: var(--color-primary-dark); text-align: center; padding: 7px; line-height: 1.2; font-size: 14px; color: var(--color-bg-white); }
+.contact-social a i:hover { color: var(--color-primary-dark); }
 address { margin-bottom: 20px; font-style: normal; line-height: 1.42857143; }
 
 /*------------------------
@@ -701,7 +701,7 @@ ul.widget-recent-post { }
 .widget-social { }
 .social-circle a { height: 33px; width: 33px; background-color: var(--color-primary); color: #fff; border-radius: 100%; padding: 5px; display: inline-block; text-align: center; margin-right: 10px; }
 .social-circle a:hover { background-color: var(--color-primary-dark); }
-.widget-call-to-action{background-color: #eddba5;}
+.widget-call-to-action{background-color: var(--color-bg-light);}
 .widget-call-to-action .widget-title{font-size: 20px; font-weight: 400; margin-bottom: 20px; line-height: 28px;}
 .widget-call-to-action p{font-size: 18px; color: var(--color-text-heading);}
 .team-block { margin-bottom: 20px; }
@@ -754,7 +754,7 @@ opacity: .5; }
 .box-primary-color { background-color: var(--color-secondary); height: 160px; width: 160px; }
 .box-heading-color { background-color: var(--color-secondary); height: 160px; width: 160px; }
 .box-secondary-color { background-color: #6f6f6f; height: 160px; width: 160px; }
-.box-bg-color { background-color: #eddba5; height: 160px; width: 160px; }
+.box-bg-color { background-color: var(--color-bg-light); height: 160px; width: 160px; }
 
 /*==========  Non-Mobile First Method  ==========*/
 
