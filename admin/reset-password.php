@@ -28,6 +28,7 @@ session_destroy();
 <!-- Bootstrap Core CSS -->
 <link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
 <!-- Custom CSS -->
+<link href="../css/variables.css" rel='stylesheet' type='text/css' />
 <link href="css/style.css" rel='stylesheet' type='text/css' />
 <!-- font CSS -->
 <!-- font-awesome icons -->
@@ -50,6 +51,8 @@ session_destroy();
 <!-- Metis Menu -->
 <script src="js/metisMenu.min.js"></script>
 <script src="js/custom.js"></script>
+<script src="../js/theme.js"></script>
+
 <link href="css/custom.css" rel="stylesheet">
 
 <!--//Metis Menu -->
